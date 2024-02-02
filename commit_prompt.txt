@@ -3,3 +3,36 @@ Exemplo de como criar commit, no gitbash
 TEste 2
 
 Criando branch
+
+Comandos git bash:
+
+git init
+Cria a estrutura inicial do repositório Git no computador local.
+
+git status
+Verifica o status das alterações realizadas no repositório.
+
+git add . || git add nomearquivo.xxx
+Adiciona arquivos ao histórico do projeto, na staging.
+
+git commit || git commit –m "nome commit"
+Registra/salva a alteração no repositório.
+
+git log
+Permite visualizar as alterações feitas.
+
+git show número-do-commit
+Permite visualizar informações sobre qualquer commit.
+
+git remote add origin "destino"
+Informa a pasta remota.
+
+git remote –v
+Permite visualizar o repositório remoto.
+
+git push -u origin main
+Publica as alterações no repositório remoto.
+
+git pull
+Baixa as alterações no repositório remoto.
+
