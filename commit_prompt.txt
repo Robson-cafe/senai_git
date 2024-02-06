@@ -36,3 +36,25 @@ Publica as alterações no repositório remoto.
 git pull
 Baixa as alterações no repositório remoto.
 
+git clone
+para clonar a pasta do repositório remoto
+
+git checkout -b tarefa/minha-primeira-branch
+criar uma branch - vai mudar nome da branch no gitbash
+
+git checkout main(vai o nome da branch)
+VOLTAR PARA A MAIN COM - ou outra branch
+
+{
+ git add .
+ git commit –m "nome commit"
+ git push main exemplo-branch(branch corrente)
+}
+
+git pull main tarefa/minha-primeira-branch(branch q deseja)
+atualiza copia
+
+git merge tarefa/minha-primeira-branch
+faz o marge da branch
+
+
